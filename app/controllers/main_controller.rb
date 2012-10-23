@@ -1,0 +1,20 @@
+class MainController < ApplicationController
+  def home
+  end
+
+  def about
+    @title = "about"
+  end
+
+  def services
+    @title = "services"
+  end
+
+  def portfolio
+    @title = "porfolio"
+  end
+
+  def contacts
+    @title = "contacts"
+  end
+end
