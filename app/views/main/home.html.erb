@@ -6,13 +6,13 @@
 	<a class="logo" alt="Cave Group" href="/"></a>
       </div>
       <nav class="grid_8">
-	<a href="/main/about">О КОМПАНИИ</a>
-	<em>/</em>
-	<a href="/main/services">&nbspУСЛУГИ</a>
-	<em>/</em>
-	<a href="/main/portfolio">&nbspПОРТФОЛИО</a>
-	<em>/</em>
-	<a href="/main/contacts">&nbspКОНТАКТЫ</a>
+	<%= link_to "О КОМПАНИИ", 'about' %>
+	<em>/&nbsp</em>
+	<%= link_to "УСЛУГИ", 'services' %>
+	<em>/&nbsp</em>
+	<%= link_to "ПОРТФОЛИО", 'portfolio' %>
+	<em>/&nbsp</em>
+	<%= link_to "КОНТАКТЫ", 'contacts' %>
       </nav>
       <div class="grid_18">
 	<div class="social"> <a class="social_vk" alt="page vk" href="http://www.vk.com"></a> </div>
@@ -145,85 +145,7 @@
   </div>
 </div>
 
-  <footer>    
-    <div class="wraper">
-      <div class="container_12">
-	<div class="grid_12">
-	  <div class="grid_2">
-	    <div class="nav_footer_grid_1">
-	      <a class="logo" alt="Cave Group" href="/"></a>
-	    </div>
-	    <div class="footer_grid_1">
-	      <ul>
-		<li>
-		<a href="/about">О компании</a>
-		</li>
-		<li>
-		<a href="/services">Услуши</a>
-		</li>
-		<li>
-		<a href="/portfolio">Портфолио</a>
-		</li>
-		<li>
-		<a href="/contacts">Контакты</a>
-		</li>
-	      </ul>
-	    </div>
-	  </div>
-	  <div class="grid_3">
-	    <div class="nav_footer_grid_2">
-	      <h4 class="info">УСЛУГИ<h4>
-	    </div>
-	    <div class="footer_grid_2">
-	      <ul>
-		<li>
-		<a href="/slides">Слайдовый видеоролик</a>
-		</li>
-		<li>
-		<a href="/2d_graphs">2d графика</a>
-		</li>
-		<li>
-		<a href="/3d_graphs">3d графика</a>
-		</li>
-		<li>
-		<a href="/direction_video">Постановочный видеоролик</a>
-		</li>
-	      </ul>
-	    </div>
-	    <div class="footer_grid_3">
-	      <ul>
-		<li>
-		<a href="/movie">Презентационный фильм</a>
-		</li>
-		<li>
-		<a href="/combie_movie">Комбинированный видеоролик</a>
-		</li>
-		<li>
-		<a href="/audio">Аудиореклама</a>
-		</li>
-		<li>
-		<a href="/3d_arcitecture">Трехмерная архитектурная визуализация</a>
-		</li>
-	      </ul>
-	    </div>
-	  </div>
-	  <div class="grid_4">
-	    <div class="nav_footer_grid_2">
-	      <h4 class="info">КОНТАКТЫ<h4>
-	    </div>
-	    <div class="footer_grid_4">
-	      <ul>
-		<li><a class="small">© 2012</a><a class="middle">&nbspCave group</a></li>
-		<li><a class="middle">all rights reserved</a></li>
-		<li><a class="big">+7 920 159 62 34<br /></li>
-		<li><a class="small" href="mailto:info@suvorov-art.ru">info@suvorov-art.ru</a></li>
-	      </ul>
-	    </div>
-	  </div>
-	</div>
-      </div>
-    </div>
-  </footer>
+<%= render 'layouts/footer' %>
 
 </body>
 </html>
