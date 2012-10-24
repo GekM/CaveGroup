@@ -28,6 +28,8 @@ GEM
     activesupport (3.2.8)
       i18n (~> 0.6)
       multi_json (~> 1.0)
+    annotate (2.5.0)
+      rake
     arel (3.0.2)
     builder (3.0.4)
     ckeditor (3.7.1)
@@ -40,7 +42,7 @@ GEM
     coffee-script (2.2.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.3.3)
+    coffee-script-source (1.4.0)
     daemons (1.1.9)
     diff-lcs (1.1.3)
     erubis (2.7.0)
@@ -61,6 +63,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.19)
     multi_json (1.3.6)
+    mysql (2.8.1)
     nokogiri (1.5.5)
     orm_adapter (0.4.0)
     paperclip (3.3.0)
@@ -119,7 +122,6 @@ GEM
       hike (~> 1.2)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sqlite3 (1.3.6)
     therubyracer (0.10.2)
       libv8 (~> 3.3.10)
     thin (1.5.0)
@@ -144,15 +146,17 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  annotate
   ckeditor (= 3.7.1)
   coffee-rails (~> 3.2.1)
   jquery-rails
+  mysql
   paperclip
   quiet_assets
   rails (= 3.2.8)
+  rake
   rspec-rails
   sass-rails (~> 3.2.3)
-  sqlite3
   therubyracer
   thin
   uglifier (>= 1.0.3)

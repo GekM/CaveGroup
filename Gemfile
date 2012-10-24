@@ -11,12 +11,13 @@ group :production do
 end
 
 group :development do
-  gem 'sqlite3'
+  gem 'mysql'
   gem 'rspec-rails'
+  gem 'annotate'
 end
 
 group :test do
-  gem 'sqlite3'
+  gem 'mysql'
   gem 'rspec-rails'
   gem 'webrat'
 end
@@ -32,6 +33,8 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
+
+gem 'rake'
 
 gem "ckeditor", "3.7.1"
 
