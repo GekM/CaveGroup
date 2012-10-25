@@ -1,4 +1,6 @@
 Cavegroup::Application.routes.draw do
+  get "users/new"
+
   get "main/home"
 
   get "main/about"
