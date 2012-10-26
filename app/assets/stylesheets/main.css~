@@ -39,15 +39,18 @@ html, button, input, select, textarea {
     color: #222222;
     font-family: 'Open Sans',sans-serif;
 }
-#homepage .hero {
+.hero {
   min-width: 850px;
   background: url(homepage.jpg) no-repeat scroll center top transparent;
   margin-top: 0 px;
   height: 468px;
   width: 100%;
-  position: fixed;
   top: 0;
   z-index: -2;
+  
+  position: fixed;
+}
+#homepage .hero {
 }
 .container_12, .conteiner_16  {
   margin-left: auto;

@@ -1,5 +1,5 @@
 Cavegroup::Application.routes.draw do
-  resources :users
+  map.resources :users, :controller => 'user'
 
   get "main/home"
 
