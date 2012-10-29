@@ -1,0 +1,39 @@
+<header>
+  <div class="hero">
+    <div class="container_12 header_container">
+      <div class="grid_4">
+	<a class="logo" alt="Cave Group" href="/"></a>
+      </div>
+      <nav class="grid_8">
+	<%= link_to "О КОМПАНИИ", 'about' %>
+	<em>/&nbsp</em>
+	<%= link_to "УСЛУГИ", 'services' %>
+	<em>/&nbsp</em>
+	<%= link_to "ПОРТФОЛИО", 'portfolio' %>
+	<em>/&nbsp</em>
+	<%= link_to "КОНТАКТЫ", 'contacts' %>
+      </nav>
+      <div class="grid_18">
+	<div class="social"> <a class="social_vk" alt="page vk" href="http://www.vk.com"></a> </div>
+	<div class="social"> <a class="social_fb" alt="page fb" href="http://www.facebook.com"></a> </div>
+	<div class="social"> <a class="social_twitter" alt="page twitter" href="http://www.twitter.com"></a> </div>
+      </div>
+    </div>
+    
+    <div class="container_12">
+      <h1>A radically different kind of venture fund</h1>
+      <div class="grid_10">
+	<p>
+	Our hands-on teams work with portfolio companies full-time on design, recruiting,
+	<br>
+	marketing, and engineering. Startup Lab is a dedicated facility and educational program
+	<br>
+	where companies can meet, learn, work, and share. We invest hundreds of millions
+	<br>
+	of dollars each year in entrepreneurs with a healthy disregard for the impossible.
+	</p>
+      </div>
+    </div>
+  </div>
+</header>  
+

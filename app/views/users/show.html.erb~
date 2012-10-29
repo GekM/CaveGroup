@@ -1,1 +1,15 @@
-<%= @user.name %>, <%= @user.email %>
+<body id="homepage">
+
+<div class="masonry" role="main">
+  <div class="container_12">
+    
+    <a> Name: </a>
+    <h1> <%= @user.name %> </h1>
+    <a> email: </a> <br />
+    <h1> %= @user.email %> </h1>
+    
+  </div>
+</div>
+
+</body>
+</html>
